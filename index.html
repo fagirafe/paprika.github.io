@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paprika — Product Design Agency</title>
+  <meta
+    name="description"
+    content="Эксперты в B2B SaaS продуктах — вникаем в ваш проект и повышаем метрики."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <div class="brand">
+          <div class="brand-logo">
+            <span class="brand-logo-dot"></span>
+            <span class="brand-logo-text">paprika</span>
+          </div>
+          <p class="brand-text">
+            Эксперты в B2B SaaS продуктах — вникаем в ваш проект и повышаем метрики
+          </p>
+        </div>
+
+        <nav class="nav-pills">
+          <a href="#about" class="pill">О нас</a>
+          <a href="#cases" class="pill">Кейсы</a>
+          <a href="#process" class="pill">Процесс работы</a>
+          <a href="#clients" class="pill">Нам доверяют</a>
+          <a href="#team" class="pill">Команда</a>
+          <a href="#career" class="pill">Карьера</a>
+          <a href="#contacts" class="pill">Контакты</a>
+        </nav>
+      </div>
+
+      <div class="cta-card">
+        <p class="cta-title">
+          Заказать или просто спросить можно в
+          <span>telegram</span>
+        </p>
+        <a class="btn btn-dark" href="https://t.me/" target="_blank" rel="noopener noreferrer">
+          Написать в Telegram
+        </a>
+        <button class="btn btn-black" id="openModalBtn" type="button">
+          Или заполните форму
+        </button>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section id="about" class="hero card-red">
+        <div class="hero-bg">
+          <img
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80"
+            alt="Hero background"
+          />
+        </div>
+
+        <div class="hero-content">
+          <p class="hero-text">
+            Мы встраиваемся в команду клиента как in-house дизайнеры и помогаем
+            B2B SaaS-продуктам решать задачи роста: от улучшения UX и редизайна
+            до повышения конверсии и качества пользовательского опыта.
+          </p>
+
+          <div class="hero-author">
+            <p class="hero-author-name">Настя, основатель студии</p>
+            <div class="hero-author-meta">
+              <span>Ex Lead</span>
+              <img
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=64&q=80"
+                alt="Avatar"
+              />
+              <span>Yandex</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cases" class="case-grid">
+        <article class="case-card">
+          <img
+            class="case-image"
+            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80"
+            alt="Factory Director"
+          />
+          <div class="case-overlay"></div>
+          <div class="case-content">
+            <h2>Factory Director — автоматизация производства, которая работает</h2>
+            <div class="tags">
+              <span class="tag">UX/UI</span>
+              <span class="tag">Исследования</span>
+              <span class="tag">SaaS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <img
+            class="case-image"
+            src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=80"
+            alt="Second case"
+          />
+          <div class="case-overlay"></div>
+          <div class="case-content">
+            <h2>Второй кейс — название проекта</h2>
+            <div class="tags">
+              <span class="tag">UX/UI</span>
+              <span class="tag">Прототипы</span>
+              <span class="tag">B2B</span>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="process" class="section">
+        <div class="section-head">
+          <h2>Процессы</h2>
+          <p>
+            Дизайн и код — это полдела. Вторая половина — коммуникация и процессы.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <article class="soft-card">
+            <div class="step-number">01</div>
+            <h3>Погружение</h3>
+            <p>
+              Изучаем продукт, сценарии и контекст. Смотрим на ограничения,
+              цели бизнеса и точки роста.
+            </p>
+          </article>
+
+          <article class="soft-card">
+            <div class="step-number">02</div>
+            <h3>Проектирование</h3>
+            <p>
+              Собираем логику, делаем UX, прототипы и визуальные решения,
+              которые можно внедрять без лишнего шума.
+            </p>
+          </article>
+
+          <article class="soft-card">
+            <div class="step-number">03</div>
+            <h3>Запуск и развитие</h3>
+            <p>
+              Передаём макеты, сопровождаем внедрение, поддерживаем продукт и
+              помогаем следующим итерациям.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="clients" class="section">
+        <div class="section-head">
+          <h2>Нам доверяют</h2>
+          <p>Работали с командами, которым важны смысл, скорость и качество интерфейсов.</p>
+        </div>
+
+        <div class="logo-grid">
+          <div class="logo-item">Yandex</div>
+          <div class="logo-item">Sber</div>
+          <div class="logo-item">VK</div>
+          <div class="logo-item">Ozon</div>
+          <div class="logo-item">Tinkoff</div>
+          <div class="logo-item">MTS</div>
+        </div>
+      </section>
+
+      <section id="team" class="section">
+        <div class="section-head">
+          <h2>Команда</h2>
+          <p>Подключаемся как продолжение продуктовой команды, а не как “люди со стороны”.</p>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card">
+            <div class="team-emoji">👩‍💻</div>
+            <h3>Настя</h3>
+            <p class="team-role">Основатель, Lead Designer</p>
+            <p class="team-meta">Ex Yandex</p>
+          </article>
+
+          <article class="team-card">
+            <div class="team-emoji">👨‍🎨</div>
+            <h3>Дима</h3>
+            <p class="team-role">Senior UX Designer</p>
+            <p class="team-meta">Ex Sber</p>
+          </article>
+
+          <article class="team-card">
+            <div class="team-emoji">🔬</div>
+            <h3>Катя</h3>
+            <p class="team-role">UX Researcher</p>
+            <p class="team-meta">Ex VK</p>
+          </article>
+
+          <article class="team-card">
+            <div class="team-emoji">🎯</div>
+            <h3>Артём</h3>
+            <p class="team-role">Product Designer</p>
+            <p class="team-meta">Ex Ozon</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="career" class="section">
+        <div class="section-head">
+          <h2>Карьера</h2>
+          <p>Ищем людей, которым важны продуктовая логика, аккуратный UI и нормальная коммуникация.</p>
+        </div>
+
+        <div class="career-card">
+          <h3>Открыты к знакомству с сильными дизайнерами</h3>
+          <p>
+            Если тебе близок продуктовый подход, умеешь работать с B2B интерфейсами
+            и не боишься сложных сценариев — напиши нам.
+          </p>
+          <a class="btn btn-black inline-btn" href="https://t.me/" target="_blank" rel="noopener noreferrer">
+            Связаться
+          </a>
+        </div>
+      </section>
+
+      <section id="contacts" class="section">
+        <div class="section-head">
+          <h2>Контакты</h2>
+          <p>Можно просто написать в Telegram. Или оставить заявку через форму.</p>
+        </div>
+
+        <div class="contacts-card">
+          <div>
+            <div class="contact-label">Telegram</div>
+            <a href="https://t.me/" target="_blank" rel="noopener noreferrer">@paprika</a>
+          </div>
+
+          <div>
+            <div class="contact-label">Email</div>
+            <a href="mailto:hello@paprika.design">hello@paprika.design</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal hidden" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+
+    <div class="modal-dialog">
+      <button class="modal-close" id="closeModalBtn" type="button" aria-label="Закрыть">
+        ×
+      </button>
+
+      <h3>Обсудить проект</h3>
+      <p class="modal-subtitle">
+        Расскажите о задаче — мы свяжемся в течение дня
+      </p>
+
+      <form id="projectForm" class="modal-form">
+        <input type="text" name="name" placeholder="Имя" required />
+        <input type="text" name="contact" placeholder="Telegram / Email" required />
+        <textarea name="description" rows="4" placeholder="Кратко о задаче"></textarea>
+        <button class="btn btn-black" type="submit">Отправить</button>
+      </form>
+
+      <p id="formMessage" class="form-message hidden">
+        Форма отправлена локально. Дальше можно подключить реальный бэкенд или Telegram API.
+      </p>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
