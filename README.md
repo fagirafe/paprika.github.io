@@ -1,1 +1,0 @@
-# paprika.github.io
